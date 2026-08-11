@@ -1,0 +1,32 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #1e3a8a, #2563eb);
+  color: white;
+  text-align: center;
+}
+
+.App-header {
+  max-width: 520px;
+  padding: 2rem;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.25);
+}
+
+button {
+  margin: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border: 0;
+  border-radius: 9999px;
+  background: #f59e0b;
+  color: #08101f;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #fbbf24;
+}
